@@ -8,5 +8,11 @@ max_n=3#最大の回数
 
 number=input("3桁の数字を入力してください:")
 
-print(number)  
+#print(number)  
 
+if ans ==number:
+    print("Correct!!")
+
+
+else:
+    print("x")
