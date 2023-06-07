@@ -15,4 +15,19 @@ if ans ==number:
 
 
 else:
-    print("x")
+    #print("x")
+    print("数字の桁と数字が合っている場合は「EAT」と言い、数字はあっているが桁が違う場合は「BITE」とします")
+    hint=""
+    eat=0
+    bite=0
+    for i in range (3):
+        if number[i]==ans[i]:
+            eat+=1
+        elif number[i] in ans:
+            bite+=1
+
+    hint += f"{eat}EAT-{bite}BITE"
+
+    print(hint)
+
+
