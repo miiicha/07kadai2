@@ -4,7 +4,7 @@ ans=str(random.randint(100,999))
 
 n=0#回数の初期化
 
-max_n=3#最大の回数
+max_n=5#最大の回数
 
 while True:
     number=input("3桁の数字を入力してください:")
@@ -29,7 +29,7 @@ while True:
         
         print(hint)
 
-if len(ans) >=4:
+if len(ans) >=6:
     print("回答数の制限に達しました．正解は”ans”でした．")
 
 
